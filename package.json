@@ -1,0 +1,32 @@
+{
+  "name": "hw_7_http_backend_",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VyacheslavBakashov/ahj_hw_7_http_backend.git"
+  },
+  "author": "BVV",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VyacheslavBakashov/ahj_hw_7_http_backend/issues"
+  },
+  "homepage": "https://github.com/VyacheslavBakashov/ahj_hw_7_http_backend#readme",
+  "dependencies": {
+    "@koa/cors": "^4.0.0",
+    "forever": "^4.0.3",
+    "koa": "^2.14.2",
+    "koa-body": "^6.0.1",
+    "koa-static": "^5.0.0",
+    "uuid": "^9.0.0"
+  },
+  "engines": {
+    "node": ">=12.x"
+  }
+}
